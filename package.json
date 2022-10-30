@@ -1,0 +1,27 @@
+{
+  "name": "soket",
+  "version": "1.0.0",
+  "description": "![\"Server\"](\"./images/server-class-diagram-server.png\")",
+  "main": "./dist/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc",
+    "serve": "concurrently \" npx tsc --watch\" \"nodemon ./dist/server.js \" "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "socket.io": "^4.5.3",
+    "typescript": "^4.8.4",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.14",
+    "@types/node": "^18.11.7",
+    "concurrently": "^7.5.0",
+    "nodemon": "^2.0.20"
+  }
+}

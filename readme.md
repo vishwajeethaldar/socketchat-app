@@ -1,0 +1,1 @@
+!["Server"]("./images/server-class-diagram-server.png")
